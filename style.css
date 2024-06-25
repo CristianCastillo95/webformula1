@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif; /* Especifica una fuente antes de sans-serif */
+    margin: 0;
+    padding: 0;
+    background-color: #3b659b;
+}
+
+header {
+    background-color: #5589cc;
+    color: rgb(56, 221, 139);
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0; /* Faltaba el punto y coma */
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos video {
+    width: 45%;
+    margin: 10px 2.5%;
+}
+
+footer {
+    background-color: #e4fa20;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
